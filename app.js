@@ -79,8 +79,7 @@ app.use('/campgrounds/:id/reviews', reviews)
 
 //Initial for checking
 app.get('/', (req, res)=> {
-    res.send("Hi");
-    res.send
+    res.redirect('/campgrounds')
 })
 
 
